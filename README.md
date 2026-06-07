@@ -66,9 +66,10 @@ AzureVault
 ├── README.md
 ├── requirements.txt
 ├── screenshots
+│   ├── azurevault-topology.png
 │   ├── python_app.png
-│   ├── region_error.png
-│   └── resource_group.png
+|   ├── resource_group.png
+│   └── region_error.png
 └── templates
     └── index.html
 ```
