@@ -1,0 +1,21 @@
+<!doctype html>
+<title>AzureVault</title>
+<h1>AzureVault — My Files</h1>
+<form method="post" action="/upload" enctype="multipart/form-data">
+  <input type="file" name="file" required>
+  <button>Upload</button>
+</form>
+<table border="1" cellpadding="6">
+  <tr><th>Name</th><th>Actions</th></tr>
+  {% for f in files %}
+  <tr>
+    <td>{{ f }}</td>
+    <td>
+      <a href="/download/{{ f }}">Download</a>
+      <form method="post" action="/delete/{{ f }}" style="display:inline">
+        <button>Delete</button>
+      </form>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
