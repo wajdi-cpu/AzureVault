@@ -10,9 +10,9 @@ AzureVault lets you upload, download, and delete files through a web interface. 
 
 ---
 
-## warning
+## ⚠️ Warning
 
-⚠️ Not all Azure regions support every resource (Bastion Standard SKU, certain VM sizes, etc.). If deployment fails, check Azure Products by Region and switch to a region where all required services are available — this project uses francecentral for full compatibility.
+Not all Azure regions support every resource (Bastion Standard SKU, certain VM sizes, etc.). If deployment fails, check Azure Products by Region and switch to a region where all required services are available — this project uses francecentral for full compatibility.
 
 ## Features
 
